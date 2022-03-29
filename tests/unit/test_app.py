@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import pytest
-from project.main import app
+from project.app import app
 
 
 def test_index_route():
