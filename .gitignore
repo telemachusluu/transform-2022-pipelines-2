@@ -1,0 +1,4 @@
+.DS_Store
+.pytest_cache
+app_template_api.egg-info
+*pyc
