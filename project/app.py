@@ -1,13 +1,19 @@
 #!/usr/bin/env python
 
+import project.web_utils
 from flask import Flask, render_template
 
 app = Flask(__name__)
 
 
 @app.route("/")
-def hello():
+def index():
     return render_template("index.html")
+
+
+@app.route("/cart")
+def cart():
+    return project.web_utils.cart(render_template)
 
 
 if __name__ == "__main__":
