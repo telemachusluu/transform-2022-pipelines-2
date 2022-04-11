@@ -18,4 +18,4 @@ spec:
       - image: kbreit/transform-2022-nginx:0.0.0
         name: transform-2022-nginx
         ports:
-          - containerPort: 80
+        - containerPort: 80
